@@ -1,0 +1,3 @@
+[*.{cpp, h, cuh, cuda}]
+indent_size = 4
+indent_style = space
