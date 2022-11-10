@@ -12,7 +12,6 @@ target_include_directories(cuda_wrapper PRIVATE ${CMAKE_CUDA_STANDARD_INCLUDE_DI
 target_sources(cuda_wrapper
         PRIVATE
             ${CMAKE_CURRENT_SOURCE_DIR}/cuda_wrapper.cpp
-            ${CMAKE_CURRENT_SOURCE_DIR}/cuda_wrapper_p.h
         INTERFACE
             ${CMAKE_CURRENT_SOURCE_DIR}/cuda_wrapper.h
 )
